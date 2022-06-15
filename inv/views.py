@@ -12,16 +12,6 @@ from .forms import MarcaForm
 
 from bases.views import SinPrivilegios
 
-
-
-
-
-
-
-
-
-
-
 class MarcaView(SinPrivilegios,\
      generic.ListView):
     permission_required = "inv.view_marca"
